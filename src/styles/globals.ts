@@ -7,7 +7,21 @@ export const Global = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    background-color: ${colors.black};
     color: ${colors.white};
+  }
+
+  body {
+    background-color: ${colors.black};
+  }
+
+  html {
+    scroll-behavior:smooth;
+
+    @media (max-width: 1080px) {
+      font-size: 93.75%;
+    }
+    @media (max-width: 720px) {
+      font-size: 87.5%;
+    }
   }
 `
