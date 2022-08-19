@@ -26,14 +26,14 @@ export function About() {
         </SubTitle>
         <ExperienceDiv>
           <TextDiv>
-            <TextH4>+01</TextH4>
+            <TextH4>01+</TextH4>
             <TextP>
               Years of
               <br /> Experience
             </TextP>
           </TextDiv>
           <TextDiv>
-            <TextH4>+30</TextH4>
+            <TextH4>30+</TextH4>
             <TextP>
               Completed
               <br /> Projects

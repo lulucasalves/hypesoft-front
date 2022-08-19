@@ -20,3 +20,16 @@ export interface ICompanyCard {
   width?: number
   height?: number
 }
+
+export interface ITestimonialCard {
+  image: string
+  title: string
+  description: string
+  company: string
+  onClick: () => void
+}
+
+export interface IFeedback {
+  text: string
+  position: number
+}

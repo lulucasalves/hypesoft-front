@@ -6,7 +6,7 @@ import { SectionTitle } from '../SectionTitle'
 
 export function Service() {
   return (
-    <Container id="about">
+    <Container id="services">
       <SectionTitle title="My Services" />
       <CardsDiv>
         <Cards icon={<BsBox />} title1="UI/UX" title2="Design" />

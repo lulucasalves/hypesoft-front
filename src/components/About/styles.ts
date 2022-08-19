@@ -37,7 +37,7 @@ export const ExperienceDiv = styled.div`
 export const TextDiv = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 `
 
 export const TextH4 = styled.h4`
@@ -49,4 +49,5 @@ export const TextH4 = styled.h4`
 
 export const TextP = styled.p`
   font-size: 20px;
+  line-height: 30px;
 `

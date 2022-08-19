@@ -10,6 +10,13 @@ export const Card = styled.div`
   align-items: center;
   display: flex;
   cursor: pointer;
+  opacity: 1;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+  }
 
   svg {
     path {

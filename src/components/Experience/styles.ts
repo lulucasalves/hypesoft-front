@@ -15,6 +15,19 @@ export const Text = styled.p`
 
   span {
     color: ${colors.secondary};
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 88px;
+      height: 20px;
+      background: ${colors.secondary};
+      opacity: 0.15;
+      left: -2px;
+      bottom: 0px;
+      z-index: 0;
+    }
   }
 `
 
