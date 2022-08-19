@@ -6,12 +6,9 @@ import {
   Description,
   PhotoDiv,
   TextSection,
-  Title,
-  TextSocial,
-  SocialMedias,
-  ButtonSocial
+  Title
 } from './styles'
-import { FaBehance, FaGithub, FaLinkedinIn, FaMediumM } from 'react-icons/fa'
+import { FollowMe } from '../FollowMe'
 
 export function Presentation() {
   return (
@@ -29,35 +26,7 @@ export function Presentation() {
           <Button href="#contact">hire me</Button>
           <Button href="#works">view work</Button>
         </Buttons>
-        <div>
-          <TextSocial>Follow me on</TextSocial>
-          <SocialMedias>
-            <ButtonSocial
-              href="https://www.linkedin.com/in/lulucasalves"
-              target="_blank"
-            >
-              <FaLinkedinIn />
-            </ButtonSocial>
-            <ButtonSocial
-              href="https://github.com/lulucasalves"
-              target="_blank"
-            >
-              <FaGithub />
-            </ButtonSocial>
-            <ButtonSocial
-              href="https://www.behance.net/lucasryanalve"
-              target="_blank"
-            >
-              <FaBehance />
-            </ButtonSocial>
-            <ButtonSocial
-              href="https://medium.com/@lulucasalves"
-              target="_blank"
-            >
-              <FaMediumM />
-            </ButtonSocial>
-          </SocialMedias>
-        </div>
+        <FollowMe />
       </TextSection>
       <PhotoDiv>
         <Image src="/images/photo.png" height={974 / 1.1} width={870 / 1.1} />

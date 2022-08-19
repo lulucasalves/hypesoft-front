@@ -17,14 +17,14 @@ export const TextDiv = styled.div`
   margin-top: 15px;
 
   p {
-    font-size: 14px;
+    font-size: 0.875rem;
     display: flex;
     align-items: center;
     color: ${colors.muted};
 
     svg {
       fill: ${colors.secondary};
-      font-size: 16px;
+      font-size: 1rem;
       margin: 0 5px;
     }
 

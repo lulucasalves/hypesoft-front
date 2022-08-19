@@ -8,6 +8,10 @@ export const Container = styled.section`
   padding-bottom: 200px;
   align-items: center;
   flex-direction: column;
+
+  @media (max-width: 840px) {
+    padding-bottom: 100px;
+  }
 `
 
 export const Content = styled.div`
@@ -15,4 +19,9 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1340px) {
+    justify-content: center;
+    flex-direction: column;
+  }
 `

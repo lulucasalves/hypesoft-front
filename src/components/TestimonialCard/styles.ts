@@ -22,6 +22,12 @@ export const Card = styled.div`
     opacity: 0.9;
     transition: 0.3s;
   }
+
+  @media (max-width: 1340px) {
+    &:last-child {
+      margin-bottom: 50px;
+    }
+  }
 `
 
 export const ImageDiv = styled.div`
@@ -38,13 +44,13 @@ export const ImageDiv = styled.div`
 
 export const Title = styled.h4`
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 28px;
   color: ${colors.black};
 `
 
 export const Description = styled.p`
-  font-size: 14px;
+  font-size: 0.875rem;
   color: ${colors.muted};
 
   span {

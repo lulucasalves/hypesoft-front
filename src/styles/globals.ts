@@ -12,15 +12,18 @@ export const Global = createGlobalStyle`
 
   body {
     background-color: ${colors.black};
+    width:100%;
+    overflow-x: hidden;
   }
 
   html {
+    width:100%;
     scroll-behavior:smooth;
 
-    @media (max-width: 1080px) {
+    @media (max-width: 1340px) {
       font-size: 93.75%;
     }
-    @media (max-width: 720px) {
+    @media (max-width: 840px) {
       font-size: 87.5%;
     }
   }

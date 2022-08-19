@@ -14,6 +14,30 @@ import { Work } from '../components/Work'
 export const Base = styled.div`
   max-width: 100%;
   padding: 0 300px;
+
+  @media (max-width: 1836px) {
+    padding: 0 250px;
+  }
+
+  @media (max-width: 1730px) {
+    padding: 0 200px;
+  }
+
+  @media (max-width: 1634px) {
+    padding: 0 150px;
+  }
+
+  @media (max-width: 1520px) {
+    padding: 0 100px;
+  }
+
+  @media (max-width: 1425px) {
+    padding: 0 50px;
+  }
+
+  @media (max-width: 840px) {
+    padding: 0 20px;
+  }
 `
 
 const Home: NextPage = () => {

@@ -14,4 +14,9 @@ export const CardsDiv = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1340px) {
+    justify-content: center;
+    flex-direction: column;
+  }
 `

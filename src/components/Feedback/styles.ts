@@ -8,6 +8,11 @@ export const Ballon = styled.div`
   background-color: ${colors.white};
   border-radius: 3px;
   padding: 50px;
+
+  @media (max-width: 840px) {
+    width: 100%;
+    height: 100%;
+  }
 `
 
 export const ImageDiv = styled.div`
@@ -22,20 +27,20 @@ export const FeedbackDiv = styled.div`
   margin-bottom: 40px;
 
   svg {
-    font-size: 28px;
+    font-size: 1.75rem;
     fill: ${colors.yellow};
     margin-right: 8px;
   }
 
   p {
     color: ${colors.black};
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 `
 
 export const TextFeedback = styled.p`
   color: ${colors.black};
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 45px;
 `
 
@@ -47,4 +52,8 @@ export const ArrowLeft = styled.div`
   background-color: ${colors.white};
   top: ${(props: { top: string }) => (props.top ? props.top : '125px')};
   left: -12px;
+
+  @media (max-width: 1340px) {
+    display: none;
+  }
 `

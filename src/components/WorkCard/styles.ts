@@ -8,6 +8,10 @@ export const CardDiv = styled.div`
   border-radius: 10px 10px 8px 8px;
   cursor: pointer;
 
+  @media (max-width: 1340px) {
+    margin-bottom: 130px;
+  }
+
   img {
     border-radius: 8px 8px 0 0;
   }
@@ -28,7 +32,7 @@ export const CardDiv = styled.div`
 `
 
 export const Title = styled.h4`
-  font-size: 24px;
+  font-size: 1.5rem;
   color: ${colors.black};
   font-weight: 400;
   margin-bottom: 15px;

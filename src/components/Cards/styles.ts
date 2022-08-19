@@ -9,8 +9,12 @@ export const Card = styled.div`
   padding: 37px;
   cursor: pointer;
 
+  @media (max-width: 1340px) {
+    margin-bottom: 20px;
+  }
+
   svg {
-    font-size: 40px;
+    font-size: 2.5rem;
     fill: ${colors.black};
     transition: 0.4s;
   }
@@ -54,7 +58,7 @@ export const Card = styled.div`
 `
 
 export const Title = styled.h4`
-  font-size: 32px;
+  font-size: 2rem;
   color: ${colors.black};
   margin-top: 90px;
   font-weight: 400;

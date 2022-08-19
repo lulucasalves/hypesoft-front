@@ -6,6 +6,11 @@ export const Container = styled.section`
   display: flex;
   justify-content: space-between;
   padding-bottom: 100px;
+
+  @media (max-width: 1340px) {
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const TextSection = styled.div`
@@ -13,9 +18,15 @@ export const TextSection = styled.div`
   position: relative;
   width: 46.5%;
   z-index: 2;
+
+  @media (max-width: 1340px) {
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+  }
 `
 export const Title = styled.h1`
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 400;
   min-width: 800px;
   z-index: 1;
@@ -34,27 +45,57 @@ export const Title = styled.h1`
       left: 15px;
       bottom: 0px;
       z-index: 0;
+
+      @media (max-width: 1340px) {
+        width: 500px;
+        left: 120px;
+      }
+    }
+  }
+
+  @media (max-width: 840px) {
+    font-size: 3rem;
+    min-width: 0;
+
+    span {
+      &:before {
+        height: 20px;
+        width: 300px;
+        left: 20px;
+      }
     }
   }
 `
 
 export const Description = styled.p`
   margin-top: 32px;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 32px;
   color: ${colors.muted};
   width: 580px;
+
+  @media (max-width: 1340px) {
+    width: 100%;
+  }
 `
 
 export const PhotoDiv = styled.div`
   margin-right: -125px;
   width: 100%;
+
+  @media (max-width: 1340px) {
+    display: none;
+  }
 `
 
 export const Buttons = styled.div`
   display: flex;
   align-items: center;
   margin-top: 32px;
+
+  @media (max-width: 1340px) {
+    justify-content: center;
+  }
 `
 
 export const Button = styled.a`
@@ -75,46 +116,5 @@ export const Button = styled.a`
     background-color: ${colors.primary};
     color: ${colors.white};
     transition: 0.3s;
-  }
-`
-
-export const TextSocial = styled.p`
-  margin-top: 157.5px;
-  margin-bottom: 10px;
-`
-
-export const SocialMedias = styled.div`
-  display: flex;
-  align-items: center;
-`
-
-export const ButtonSocial = styled.a`
-  background-color: ${colors.white};
-  border-radius: 5px;
-  align-items: center;
-  display: flex;
-  margin-right: 10px;
-  padding: 15px;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: 0.4s;
-  text-decoration: none;
-
-  svg {
-    fill: ${colors.black};
-    font-size: 20px;
-    transition: 0.4s;
-  }
-
-  &:hover {
-    background-color: ${colors.primary};
-    transition: 0.3s;
-
-    svg {
-      fill: ${colors.white};
-      transition: 0.3s;
-    }
   }
 `

@@ -13,6 +13,10 @@ export const Card = styled.div`
   opacity: 1;
   transition: 0.3s;
 
+  @media (max-width: 840px) {
+    margin-bottom: 15px;
+  }
+
   &:hover {
     opacity: 0.9;
     transition: 0.3s;

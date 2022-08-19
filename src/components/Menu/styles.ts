@@ -16,10 +16,14 @@ export const ImageBackground = styled.div`
   position: absolute;
   top: 0;
   right: 0;
+
+  @media (max-width: 1340px) {
+    display: none;
+  }
 `
 
 export const Item = styled.a`
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
   margin-right: 40px;
   cursor: pointer;
@@ -37,6 +41,8 @@ export const Item = styled.a`
     transition: 0.3s;
     opacity: 0.8;
   }
+
+  
 `
 
 export const Dots = styled.div`
@@ -44,4 +50,8 @@ export const Dots = styled.div`
   top: 400px;
   right: 250px;
   z-index: 3;
+
+  @media (max-width: 1340px) {
+    display: none;
+  }
 `

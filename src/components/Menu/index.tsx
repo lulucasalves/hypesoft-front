@@ -14,6 +14,7 @@ export function Menu() {
         <Item href="#works">works</Item>
         <Item href="#contact">contact</Item>
       </Nav>
+      
     </>
   )
 }
