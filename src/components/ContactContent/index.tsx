@@ -34,16 +34,32 @@ export function ContactContent() {
         <p>+55 (12) 99188-4702</p>
       </Info>
       <Icons>
-        <a href="https://www.linkedin.com/in/lulucasalves" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/lulucasalves"
+          rel="noreferrer"
+          target="_blank"
+        >
           <FaLinkedinIn />
         </a>
-        <a href="https://github.com/lulucasalves" target="_blank">
+        <a
+          href="https://github.com/lulucasalves"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub />
         </a>
-        <a href="https://www.behance.net/lucasryanalve" target="_blank">
+        <a
+          href="https://www.behance.net/lucasryanalve"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaBehance />
         </a>
-        <a href="https://medium.com/@lulucasalves" target="_blank">
+        <a
+          href="https://medium.com/@lulucasalves"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaMediumM />
         </a>
       </Icons>

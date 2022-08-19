@@ -9,7 +9,7 @@ export function Footer() {
       <TextDiv>
         <p>
           Made with <AiFillHeart /> by Lucas and{' '}
-          <a href="https://hypesoft.com.br" target="_blank">
+          <a href="https://hypesoft.com.br" target="_blank" rel="noreferrer">
             Hypesoft
           </a>
         </p>

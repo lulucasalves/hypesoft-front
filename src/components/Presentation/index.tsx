@@ -15,12 +15,13 @@ export function Presentation() {
     <Container>
       <TextSection>
         <Title>
-          Hello, I’m Lucas, a <br />
+          Hello, I&apos;m Lucas, a <br />
           <span>Fullstack Developer.</span>
         </Title>
         <Description>
           Based in Brazil, i have been studying since 2021 to become a Front-End
-          developer, and i'm looking for my first experience as a Developer.
+          developer, and i&apos;m looking for my first experience as a
+          Developer.
         </Description>
         <Buttons>
           <Button href="#contact">hire me</Button>
