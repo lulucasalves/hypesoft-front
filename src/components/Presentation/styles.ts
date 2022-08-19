@@ -31,6 +31,19 @@ export const Title = styled.h1`
   min-width: 800px;
   z-index: 1;
   position: relative;
+  animation: titleAnimation 1s forwards;
+
+  @keyframes titleAnimation {
+    from {
+      margin-left: -100px;
+      opacity: 0;
+    }
+
+    to {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
 
   span {
     color: ${colors.primary};
@@ -73,6 +86,19 @@ export const Description = styled.p`
   line-height: 32px;
   color: ${colors.muted};
   width: 580px;
+  animation: descriptionAnimation 1.5s forwards;
+
+  @keyframes descriptionAnimation {
+    from {
+      margin-left: -100px;
+      opacity: 0;
+    }
+
+    to {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
 
   @media (max-width: 1340px) {
     width: 100%;
@@ -83,6 +109,18 @@ export const PhotoDiv = styled.div`
   margin-right: -125px;
   width: 100%;
 
+  animation: photoAnimation 1.5s forwards;
+
+  @keyframes photoAnimation {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
   @media (max-width: 1340px) {
     display: none;
   }
@@ -92,6 +130,19 @@ export const Buttons = styled.div`
   display: flex;
   align-items: center;
   margin-top: 32px;
+  animation: buttonsAnimation 2s forwards;
+
+  @keyframes buttonsAnimation {
+    from {
+      margin-left: -100px;
+      opacity: 0;
+    }
+
+    to {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
 
   @media (max-width: 1340px) {
     justify-content: center;

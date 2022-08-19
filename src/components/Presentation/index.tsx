@@ -19,9 +19,9 @@ export function Presentation() {
           <span>Fullstack Developer.</span>
         </Title>
         <Description>
-          Based in Brazil, i have been studying since 2021 to become a Front-End
-          developer, and i&apos;m looking for my first experience as a
-          Developer.
+          I started in the programming area in June 2021 and I have been
+          studying and evolving in the Front-End and Back-End areas with Python
+          and Javascript
         </Description>
         <Buttons>
           <Button href="#contact">hire me</Button>

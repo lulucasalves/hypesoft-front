@@ -12,6 +12,10 @@ export const CardDiv = styled.div`
     margin-bottom: 130px;
   }
 
+  @media (max-width: 840px) {
+    width: 100%;
+  }
+
   img {
     border-radius: 8px 8px 0 0;
   }

@@ -18,11 +18,10 @@ export function About() {
       <DescriptionDiv>
         <Title>Back-End and Front-End developer based in Brazil.</Title>
         <SubTitle>
-          Have been studying since the beginning of 2021, starting with HTML,
-          CSS and JavaScript, joined the Trybe Full-Stack Developer course at
-          november of 2021, learning so far React, Redux, Tests, and a few more
-          features used in Front-End. Now im learning Back-End using JavaScript
-          with NodeJS, Docker, MySql, and im feeling very excited about it!
+          I am currently a student of graphic design and systems analysis and
+          development, I started my internship in 2021 and I am looking for an
+          opportunity for a JR position and in a while I will become a PL
+          developer
         </SubTitle>
         <ExperienceDiv>
           <TextDiv>

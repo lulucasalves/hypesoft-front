@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import styled from 'styled-components'
 import { About } from '../components/About'
 import { Banner } from '../components/Banner'
@@ -42,18 +43,23 @@ export const Base = styled.div`
 
 const Home: NextPage = () => {
   return (
-    <Base>
-      <Menu />
-      <Presentation />
-      <About />
-      <Service />
-      <Work />
-      <Experience />
-      <Banner />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </Base>
+    <>
+      <Head>
+        <title>Hypesoft - Lucas Alves</title>
+      </Head>
+      <Base>
+        <Menu />
+        <Presentation />
+        <About />
+        <Service />
+        <Work />
+        <Experience />
+        <Banner />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </Base>
+    </>
   )
 }
 

@@ -27,4 +27,21 @@ export const Global = createGlobalStyle`
       font-size: 87.5%;
     }
   }
+
+  ::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: ${colors.black};
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: ${colors.primary};
+  border-radius: 50px;
+}
+
+
 `

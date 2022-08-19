@@ -7,6 +7,7 @@ export function FollowMe() {
       <TextSocial>Follow me on</TextSocial>
       <SocialMedias>
         <ButtonSocial
+          animation="0s"
           href="https://www.linkedin.com/in/lulucasalves"
           target="_blank"
           rel="noreferrer"
@@ -14,6 +15,7 @@ export function FollowMe() {
           <FaLinkedinIn />
         </ButtonSocial>
         <ButtonSocial
+          animation="0.25s"
           href="https://github.com/lulucasalves"
           target="_blank"
           rel="noreferrer"
@@ -21,6 +23,7 @@ export function FollowMe() {
           <FaGithub />
         </ButtonSocial>
         <ButtonSocial
+          animation="0.5s"
           href="https://www.behance.net/lucasryanalve"
           target="_blank"
           rel="noreferrer"
@@ -28,6 +31,7 @@ export function FollowMe() {
           <FaBehance />
         </ButtonSocial>
         <ButtonSocial
+          animation="0.75s"
           href="https://medium.com/@lulucasalves"
           target="_blank"
           rel="noreferrer"

@@ -11,6 +11,7 @@ export const Content = styled.div`
   @media (max-width: 840px) {
     width: 100%;
     height: 100%;
+    padding: 20px;
   }
 `
 
@@ -46,6 +47,7 @@ export const Info = styled.div`
   }
 
   p {
+    word-wrap: break-word;
     font-size: 1.125rem;
     line-height: 28px;
     margin-left: 20px;

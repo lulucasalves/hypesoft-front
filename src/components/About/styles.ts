@@ -11,6 +11,20 @@ export const Container = styled.section`
   @media (max-width: 1340px) {
     flex-direction: column;
   }
+
+  animation: descriptionAnimation 2s forwards;
+
+  @keyframes descriptionAnimation {
+    from {
+      margin-right: -100px;
+      opacity: 0;
+    }
+
+    to {
+      margin-right: 0;
+      opacity: 1;
+    }
+  }
 `
 
 export const Title = styled.h2`

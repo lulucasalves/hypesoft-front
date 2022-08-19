@@ -8,6 +8,20 @@ export const TextSocial = styled.p`
   @media (max-width: 1340px) {
     margin-top: 50px;
   }
+
+  animation: textAnimation 0.8s forwards;
+
+  @keyframes textAnimation {
+    from {
+      margin-left: -100px;
+      opacity: 0;
+    }
+
+    to {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
 `
 
 export const SocialMedias = styled.div`
@@ -46,6 +60,24 @@ export const ButtonSocial = styled.a`
     svg {
       fill: ${colors.white};
       transition: 0.3s;
+    }
+  }
+  
+  animation: socialAnimation 1s forwards;
+  animation-delay: ${(props: { animation: string }) =>
+    props.animation ? props.animation : '0s'};
+  margin-bottom: -100px;
+  opacity: 0;
+
+  @keyframes socialAnimation {
+    from {
+      margin-bottom: -100px;
+      opacity: 0;
+    }
+
+    to {
+      margin-bottom: 0;
+      opacity: 1;
     }
   }
 `

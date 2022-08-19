@@ -41,14 +41,12 @@ export const Item = styled.a`
     transition: 0.3s;
     opacity: 0.8;
   }
-
-  
 `
 
 export const Dots = styled.div`
   position: absolute;
-  top: 400px;
-  right: 250px;
+  top: 300px;
+  right: 200px;
   z-index: 3;
 
   @media (max-width: 1340px) {
