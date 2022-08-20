@@ -10,7 +10,7 @@ export function TestimonialCard({
   onClick
 }: ITestimonialCard) {
   return (
-    <Card onClick={() => onClick()}>
+    <Card data-testid="test-card" onClick={() => onClick()}>
       <ImageDiv backgroundImage={image} />
 
       <div>

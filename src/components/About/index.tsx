@@ -13,7 +13,7 @@ import {
 
 export function About() {
   return (
-    <Container id="about">
+    <Container id="about" data-testid="about">
       <Image src="/images/computer.png" width={560} height={542} />
       <DescriptionDiv>
         <Title>Back-End and Front-End developer based in Brazil.</Title>

@@ -24,7 +24,7 @@ export function Testimonials() {
   }
 
   return (
-    <Container>
+    <Container data-testid="testimonials">
       <SectionTitle title="Testimonials" />
       <Content>
         <div>
@@ -57,7 +57,11 @@ export function Testimonials() {
             company="Slack"
           />
         </div>
-        <Feedback text={getText()} position={position} />
+        <Feedback
+          data-testid="feedback-text"
+          text={getText()}
+          position={position}
+        />
       </Content>
     </Container>
   )

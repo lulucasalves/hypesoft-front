@@ -3,7 +3,7 @@ import { ImageBackground, Item, Nav, Dots } from './styles'
 
 export function Menu() {
   return (
-    <>
+    <div data-testid="menu">
       <ImageBackground />
       <Dots>
         <Image src="/vectors/blackDots.svg" width={150} height={150} />
@@ -14,7 +14,6 @@ export function Menu() {
         <Item href="#works">works</Item>
         <Item href="#contact">contact</Item>
       </Nav>
-      
-    </>
+    </div>
   )
 }

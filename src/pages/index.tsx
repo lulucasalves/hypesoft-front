@@ -47,7 +47,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Hypesoft - Lucas Alves</title>
       </Head>
-      <Base>
+      <Base data-testid="page">
         <Menu />
         <Presentation />
         <About />

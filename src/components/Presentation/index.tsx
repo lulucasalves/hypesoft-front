@@ -12,7 +12,7 @@ import { FollowMe } from '../FollowMe'
 
 export function Presentation() {
   return (
-    <Container>
+    <Container data-testid="home">
       <TextSection>
         <Title>
           Hello, I&apos;m Lucas, a <br />

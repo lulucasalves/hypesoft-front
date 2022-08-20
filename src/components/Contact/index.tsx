@@ -6,7 +6,7 @@ import { ContactContent } from '../ContactContent'
 
 export function Contact() {
   return (
-    <Container id="contact">
+    <Container id="contact" data-testid="contact">
       <DotsDiv>
         <Image src="/vectors/pinkDots.svg" width={152} height={68} />
       </DotsDiv>

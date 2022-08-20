@@ -4,7 +4,7 @@ import { Container, TextDiv } from './styles'
 
 export function Footer() {
   return (
-    <Container>
+    <Container data-testid="footer">
       <Image src="/images/hypesoft.png" width={263} height={59} />
       <TextDiv>
         <p>

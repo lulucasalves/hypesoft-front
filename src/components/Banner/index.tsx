@@ -3,7 +3,7 @@ import { Container, Text } from './styles'
 
 export function Banner() {
   return (
-    <Container>
+    <Container data-testid="banner">
       <Text>
         Got a project in mind? Let&apos;s make <br />
         something awesome <span>together</span>.
