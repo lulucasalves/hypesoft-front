@@ -2,8 +2,8 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import { TestimonialCard } from '../../components/TestimonialCard'
 
-describe('Test general render components', () => {
-  test('increment counter', () => {
+describe('Test click button change feedback text', () => {
+  test('Change Position', () => {
     render(
       <TestimonialCard
         onClick={() => console.log('fired')}

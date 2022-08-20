@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { AiFillHeart } from 'react-icons/ai'
+import { Trans } from '../Trans'
 import { Container, TextDiv } from './styles'
 
 export function Footer() {
@@ -8,7 +9,7 @@ export function Footer() {
       <Image src="/images/hypesoft.png" width={263} height={59} />
       <TextDiv>
         <p>
-          Made with <AiFillHeart /> by Lucas and{' '}
+          <Trans text="footer1" /> <AiFillHeart /> <Trans text="footer2" />{' '}
           <a href="https://hypesoft.com.br" target="_blank" rel="noreferrer">
             Hypesoft
           </a>

@@ -1,10 +1,13 @@
 import { TextSocial, SocialMedias, ButtonSocial } from './styles'
 import { FaBehance, FaGithub, FaLinkedinIn, FaMediumM } from 'react-icons/fa'
+import { Trans } from '../Trans'
 
 export function FollowMe() {
   return (
     <div>
-      <TextSocial>Follow me on</TextSocial>
+      <TextSocial>
+        <Trans text="follow" />
+      </TextSocial>
       <SocialMedias>
         <ButtonSocial
           animation="0s"

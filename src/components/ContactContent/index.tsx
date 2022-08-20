@@ -3,18 +3,21 @@ import { IoLocationOutline } from 'react-icons/io5'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsTelephone } from 'react-icons/bs'
 import { FaBehance, FaGithub, FaLinkedinIn, FaMediumM } from 'react-icons/fa'
+import { Trans } from '../Trans'
 
 export function ContactContent() {
   return (
     <Content>
-      <Title>Get in touch</Title>
+      <Title>
+        <Trans text="touch" />
+      </Title>
       <Info>
         <div>
           <IoLocationOutline />
         </div>
         <p>
-          Street Exaporã, Number 395 <br />
-          Taubaté-SP, Brazil
+          <Trans text="address1" /> <br />
+          <Trans text="address2" />
         </p>
       </Info>
       <Info>

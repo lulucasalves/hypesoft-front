@@ -9,23 +9,28 @@ import {
   Title
 } from './styles'
 import { FollowMe } from '../FollowMe'
+import { Trans } from '../Trans'
 
 export function Presentation() {
   return (
     <Container data-testid="home">
       <TextSection>
         <Title>
-          Hello, I&apos;m Lucas, a <br />
-          <span>Fullstack Developer.</span>
+          <Trans text="introduction1" /> <br />
+          <span>
+            <Trans text="introduction2" />.
+          </span>
         </Title>
         <Description>
-          I started in the programming area in June 2021 and I have been
-          studying and evolving in the Front-End and Back-End areas with Python
-          and Javascript
+          <Trans text="description" />
         </Description>
         <Buttons>
-          <Button href="#contact">hire me</Button>
-          <Button href="#works">view work</Button>
+          <Button href="#contact">
+            <Trans text="hire" />
+          </Button>
+          <Button href="#works">
+            <Trans text="viewWork" />
+          </Button>
         </Buttons>
         <FollowMe />
       </TextSection>

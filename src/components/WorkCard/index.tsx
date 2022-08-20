@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { IWorkCard } from '../../types'
 import { ArrowRight } from '../ArrowRight'
+import { Trans } from '../Trans'
 import { Card, CardDiv, CtaDiv, CtaText, Title } from './styles'
 
 export function WorkCard({ image, title, redirect }: IWorkCard) {
@@ -9,9 +10,13 @@ export function WorkCard({ image, title, redirect }: IWorkCard) {
       <Image src={image} width={397} height={224} />
 
       <Card>
-        <Title>{title}</Title>
+        <Title>
+          <Trans text={title} />
+        </Title>
         <CtaDiv>
-          <CtaText>view project</CtaText>
+          <CtaText>
+            <Trans text="viewProject" />
+          </CtaText>
           <ArrowRight />
         </CtaDiv>
       </Card>

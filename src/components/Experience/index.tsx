@@ -1,13 +1,16 @@
 import { CompanyCard } from '../CompanyCard'
+import { Trans } from '../Trans'
 import { Container, Text, Cards } from './styles'
 
 export function Experience() {
   return (
     <Container data-testid="experience">
       <Text>
-        I worked with <span>289+</span>
-        <br /> Companies all over <br />
-        the World.
+        <Trans text="experience1" />
+        <span>289+</span>
+        <br /> <Trans text="experience2" />
+        <br />
+        <Trans text="experience3" />
       </Text>
       <Cards>
         <CompanyCard image="/images/youtube.png" width={117.91} height={26} />

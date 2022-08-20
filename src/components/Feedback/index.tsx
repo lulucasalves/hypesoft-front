@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { AiFillStar } from 'react-icons/ai'
 import { IFeedback } from '../../types'
+import { Trans } from '../Trans'
 import {
   ArrowLeft,
   Ballon,
@@ -34,9 +35,13 @@ export function Feedback({ position, text }: IFeedback) {
       <ArrowLeft top={setArrowPosition()} />
       <FeedbackDiv>
         <AiFillStar />
-        <p>5.0 Stars Rating</p>
+        <p>
+          <Trans text="stars" />
+        </p>
       </FeedbackDiv>
-      <TextFeedback>{`“${text}”`}</TextFeedback>
+      <TextFeedback>
+        “<Trans text={text} />”
+      </TextFeedback>
     </Ballon>
   )
 }

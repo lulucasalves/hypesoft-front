@@ -5,26 +5,26 @@ import { WorkCard } from '../WorkCard'
 export function Work() {
   return (
     <Container id="works" data-testid="works">
-      <SectionTitle title="My Selected Work" />
+      <SectionTitle title="selectWork" />
       <CardsDiv>
         <WorkCard
           redirect={() => window.open('https://smurl.vercel.app/', '_blank')}
           image="https://github.com/lulucasalves/smurl-front/blob/main/.github/image-1.png?raw=true"
-          title="Encurtador de Urls"
+          title="urlShort"
         />
         <WorkCard
           redirect={() =>
             window.open('https://socialoff.vercel.app/', '_blank')
           }
           image="https://github.com/lulucasalves/socialoff-front/blob/main/.github/image-1.png?raw=true"
-          title="Download de Arquivos"
+          title="archivesDownload"
         />
         <WorkCard
           redirect={() =>
             window.open('https://arcade-retro.herokuapp.com/', '_blank')
           }
           image="https://github.com/lulucasalves/arcade-front/blob/main/.github/img-1.png?raw=true"
-          title="Jogos Arcade"
+          title="arcade"
         />
       </CardsDiv>
       <CardsDiv>
@@ -33,21 +33,21 @@ export function Work() {
             window.open('https://coffeecode.vercel.app/', '_blank')
           }
           image="https://github.com/lulucasalves/coffeecode-front/blob/main/.github/img-3.png?raw=true"
-          title="Site de Cafeteria"
+          title="cafeSite"
         />
         <WorkCard
           redirect={() =>
             window.open('https://spotifyclone-tawny.vercel.app/', '_blank')
           }
           image="https://github.com/lulucasalves/spotifyclone-front/blob/master/.github/img1.png?raw=true"
-          title="Clone do Spotify"
+          title="spotify"
         />
         <WorkCard
           redirect={() =>
             window.open('https://overfy-blush.vercel.app/', '_blank')
           }
           image="https://github.com/lulucasalves/overfy-front/blob/main/.github/img-1.png?raw=true"
-          title="Site de viagens"
+          title="travel"
         />
       </CardsDiv>
     </Container>

@@ -33,3 +33,11 @@ export interface IFeedback {
   text: string
   position: number
 }
+
+export interface ILangProvider {
+  children: JSX.Element
+}
+
+export interface ITrans {
+  text: string
+}

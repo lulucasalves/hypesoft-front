@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { ICompanyCard, ITestimonialCard } from '../../types'
+import { Trans } from '../Trans'
 import { Card, Description, ImageDiv, Title } from './styles'
 
 export function TestimonialCard({
@@ -16,7 +17,7 @@ export function TestimonialCard({
       <div>
         <Title>{title}</Title>
         <Description>
-          {description} <span>{company}</span>
+          <Trans text={description} /> <span>{company}</span>
         </Description>
       </div>
     </Card>

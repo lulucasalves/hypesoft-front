@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { CtaButton } from '../CtaButton'
+import { Trans } from '../Trans'
 import {
   Container,
   DescriptionDiv,
@@ -16,30 +17,29 @@ export function About() {
     <Container id="about" data-testid="about">
       <Image src="/images/computer.png" width={560} height={542} />
       <DescriptionDiv>
-        <Title>Back-End and Front-End developer based in Brazil.</Title>
+        <Title>
+          <Trans text="aboutTitle" />
+        </Title>
         <SubTitle>
-          I am currently a student of graphic design and systems analysis and
-          development, I started my internship in 2021 and I am looking for an
-          opportunity for a JR position and in a while I will become a PL
-          developer
+          <Trans text="aboutDescription" />
         </SubTitle>
         <ExperienceDiv>
           <TextDiv>
             <TextH4>01+</TextH4>
             <TextP>
-              Years of
-              <br /> Experience
+              <Trans text="yearsOf" />
+              <br /> <Trans text="experience" />
             </TextP>
           </TextDiv>
           <TextDiv>
             <TextH4>30+</TextH4>
             <TextP>
-              Completed
-              <br /> Projects
+              <Trans text="completed" />
+              <br /> <Trans text="projects" />
             </TextP>
           </TextDiv>
         </ExperienceDiv>
-        <CtaButton text="say hi" />
+        <CtaButton text="hi" />
       </DescriptionDiv>
     </Container>
   )

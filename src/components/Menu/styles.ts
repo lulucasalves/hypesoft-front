@@ -53,3 +53,17 @@ export const Dots = styled.div`
     display: none;
   }
 `
+
+export const SelectLang = styled.select`
+  top: 30px;
+  position: fixed;
+  left: 30px;
+  padding: 10px;
+  background-color: ${colors.black};
+  border: 1px solid ${colors.grayBorder};
+  border-radius: 8px;
+
+  @media (max-width: 840px) {
+    display: none;
+  }
+`

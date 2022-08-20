@@ -10,7 +10,7 @@ export const Button = styled.div`
   align-items: center;
   cursor: pointer;
   transition: 0.4s;
-  max-width: 160px;
+  max-width: 180px;
   justify-content: center;
 
   p {

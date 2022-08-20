@@ -2,8 +2,8 @@ import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import { Contact } from '../../components/Contact'
 
-describe('Test general render components', () => {
-  it('Test if home render', () => {
+describe('<Contact />', () => {
+  it('Test if contact component render', () => {
     render(<Contact />)
     const Component = screen.getByTestId('contact')
     expect(Component).toBeInTheDocument()

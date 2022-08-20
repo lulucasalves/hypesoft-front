@@ -1,22 +1,30 @@
 import { Button, Formulary, InputDiv, TextArea, Title } from './styles'
 import { FiSend } from 'react-icons/fi'
+import { useIntl } from 'react-intl'
+import { Trans } from '../Trans'
 
 export function FormularySection() {
+  const { formatMessage } = useIntl()
+
   return (
     <Formulary>
-      <Title>Let me know here.</Title>
+      <Title>
+        <Trans text="letKnow" />
+      </Title>
       <form>
         <InputDiv>
-          <input placeholder="Full Name" />
-          <input placeholder="Email Address" />
+          <input placeholder={formatMessage({ id: 'name' })} />
+          <input placeholder={formatMessage({ id: 'email' })} />
         </InputDiv>
         <InputDiv>
-          <input placeholder="Subjects" />
+          <input placeholder={formatMessage({ id: 'subjects' })} />
         </InputDiv>
-        <TextArea placeholder="Message" />
+        <TextArea placeholder={formatMessage({ id: 'message' })} />
       </form>
       <Button>
-        <p>Send Message</p>
+        <p>
+          <Trans text="send" />
+        </p>
         <FiSend />
       </Button>
     </Formulary>
