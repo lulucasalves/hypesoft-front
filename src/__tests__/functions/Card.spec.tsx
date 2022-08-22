@@ -1,6 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import { TestimonialCard } from '../../components/TestimonialCard'
+import { LangProvider } from '../../store/Translate'
 
 describe('Test click button change feedback text', () => {
   test('Change Position', () => {
@@ -11,7 +12,10 @@ describe('Test click button change feedback text', () => {
         title="Jeff Bezos"
         description="CEO & Founder of"
         company="Google"
-      />
+      />,
+      {
+        wrapper: LangProvider
+      }
     )
 
     const btnIncrement = screen.getByTestId('test-card')

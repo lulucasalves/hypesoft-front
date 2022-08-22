@@ -9,7 +9,7 @@ import { ILangProvider } from '../types'
 
 const messages: Record<any, any> = {
   pt: ptMessages,
-  en: enMessages,
+  en: enMessages
 }
 
 export function LangProvider({ children }: ILangProvider) {

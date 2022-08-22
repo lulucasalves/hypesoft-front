@@ -1,10 +1,14 @@
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import Home from '../pages/index'
+import { LangProvider } from '../store/Translate'
 
 describe('Test general render components', () => {
   it('Test if home render', () => {
-    render(<Home />)
+    render(<Home />, {
+      wrapper: LangProvider
+    })
+
     const Menu = screen.getByTestId('menu')
     const Banner = screen.getByTestId('banner')
     const About = screen.getByTestId('about')
