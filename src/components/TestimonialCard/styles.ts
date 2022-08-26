@@ -21,6 +21,7 @@ export const Card = styled.div`
   &:hover {
     opacity: 0.9;
     transition: 0.3s;
+    margin-left: -10px;
   }
 
   @media (max-width: 1340px) {

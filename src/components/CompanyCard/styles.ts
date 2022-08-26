@@ -18,8 +18,10 @@ export const Card = styled.div`
   }
 
   &:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     transition: 0.3s;
+    margin-bottom: 10px;
+    margin-top: -10px;
   }
 
   svg {

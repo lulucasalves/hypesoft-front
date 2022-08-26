@@ -16,29 +16,29 @@ export const Card = styled.div`
   svg {
     font-size: 2.5rem;
     fill: ${colors.black};
-    transition: 0.4s;
+    transition: 0.6s;
   }
 
   img {
-    transition: 0.4s;
+    transition: 0.6s;
   }
 
   .svgArrow {
     fill: none;
     path {
       stroke: ${colors.black};
-      transition: 0.4s;
+      transition: 0.6s;
     }
   }
 
   &:hover {
     svg {
       fill: ${colors.secondary};
-      transition: 0.4s;
+      transition: 0.6s;
     }
 
     p {
-      transition: 0.4s;
+      transition: 0.6s;
       opacity: 1;
       max-width: 200px;
     }
@@ -47,7 +47,7 @@ export const Card = styled.div`
       fill: none;
       path {
         stroke: ${colors.secondary};
-        transition: 0.4s;
+        transition: 0.6s;
       }
     }
 
@@ -84,7 +84,7 @@ export const CtaText = styled.p`
   margin-right: 10px;
   font-weight: 600;
   opacity: 0;
-  transition: 0.4s;
+  transition: 0.6s;
   max-width: 0;
   white-space: nowrap;
 `

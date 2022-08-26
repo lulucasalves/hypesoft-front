@@ -1,5 +1,5 @@
+import { colors } from './../../styles/colors'
 import styled from 'styled-components'
-import { colors } from '../../styles/colors'
 
 export const Nav = styled.nav`
   width: 100%;
@@ -40,17 +40,6 @@ export const Item = styled.a`
   &:hover {
     transition: 0.3s;
     opacity: 0.8;
-  }
-`
-
-export const Dots = styled.div`
-  position: absolute;
-  top: 300px;
-  right: 200px;
-  z-index: 3;
-
-  @media (max-width: 1340px) {
-    display: none;
   }
 `
 

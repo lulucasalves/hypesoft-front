@@ -17,6 +17,7 @@ export function LangProvider({ children }: ILangProvider) {
 
   return (
     <IntlProvider
+      onError={() => null}
       locale={lang || 'en'}
       messages={
         lang !== undefined ? messages[lang as keyof typeof messages] : {}

@@ -7,7 +7,7 @@ describe('Test click button change feedback text', () => {
   test('Change Position', () => {
     render(
       <TestimonialCard
-        onClick={() => console.log('fired')}
+        onClick={() => console.log('click')}
         image="url(./images/jeffBezos.jpg)"
         title="Jeff Bezos"
         description="CEO & Founder of"

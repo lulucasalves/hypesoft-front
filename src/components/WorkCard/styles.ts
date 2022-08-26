@@ -28,7 +28,7 @@ export const CardDiv = styled.div`
 
   &:hover {
     p {
-      transition: 0.4s;
+      transition: 0.6s;
       opacity: 1;
       max-width: 200px;
     }
@@ -53,7 +53,7 @@ export const CtaText = styled.p`
   margin-right: 10px;
   font-weight: 600;
   opacity: 0;
-  transition: 0.4s;
+  transition: 0.6s;
   max-width: 0;
   white-space: nowrap;
 `

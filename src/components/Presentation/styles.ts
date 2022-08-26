@@ -108,8 +108,8 @@ export const Description = styled.p`
 export const PhotoDiv = styled.div`
   margin-right: -125px;
   width: 100%;
-
   animation: photoAnimation 1.5s forwards;
+  position: relative;
 
   @keyframes photoAnimation {
     from {
@@ -167,5 +167,16 @@ export const Button = styled.a`
     background-color: ${colors.primary};
     color: ${colors.white};
     transition: 0.3s;
+  }
+`
+
+export const Dots = styled.div`
+  position: absolute;
+  top: 250px;
+  right: 80px;
+  z-index: 3;
+
+  @media (max-width: 1340px) {
+    display: none;
   }
 `

@@ -6,7 +6,8 @@ import {
   Description,
   PhotoDiv,
   TextSection,
-  Title
+  Title,
+  Dots
 } from './styles'
 import { FollowMe } from '../FollowMe'
 import { Trans } from '../Trans'
@@ -36,6 +37,9 @@ export function Presentation() {
       </TextSection>
       <PhotoDiv>
         <Image src="/images/photo.png" height={974 / 1.1} width={870 / 1.1} />
+        <Dots>
+          <Image src="/vectors/blackDots.svg" width={150} height={150} />
+        </Dots>
       </PhotoDiv>
     </Container>
   )

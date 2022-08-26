@@ -1,8 +1,7 @@
-import Image from 'next/image'
 import { useContext } from 'react'
 import { IMyContext, MyContext } from '../../store/Config'
 import { Trans } from '../Trans'
-import { ImageBackground, Item, Nav, Dots, SelectLang } from './styles'
+import { ImageBackground, Item, Nav, SelectLang } from './styles'
 
 export function Menu() {
   const { changeLang, lang } = useContext<IMyContext>(MyContext)
@@ -17,9 +16,6 @@ export function Menu() {
         <option value="pt">PT-BR</option>
       </SelectLang>
       <ImageBackground />
-      <Dots>
-        <Image src="/vectors/blackDots.svg" width={150} height={150} />
-      </Dots>
       <Nav>
         <Item href="#about">
           <Trans text="about" />
