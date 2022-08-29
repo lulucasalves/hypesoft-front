@@ -13,6 +13,7 @@ export const CardDiv = styled.div`
   }
 
   @media (max-width: 840px) {
+    text-align: center;
     width: 100%;
   }
 
@@ -38,6 +39,7 @@ export const CardDiv = styled.div`
 export const Title = styled.h4`
   font-size: 1.5rem;
   color: ${colors.black};
+  text-align: left;
   font-weight: 400;
   margin-bottom: 15px;
 `

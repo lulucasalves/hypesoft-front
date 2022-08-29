@@ -33,8 +33,8 @@
   "banner1": "Tem um projeto em mente? Vamos fazer",
   "banner2": "algo incrível",
   "banner3": "juntos",
-  "ceo": "CEO of",
-  "ceoFounder": "CEO & Founder of",
+  "ceo": "CEO da",
+  "ceoFounder": "CEO & fundador da",
   "director": "Diretor de Design, ",
 
   "testimonial1": "Eu sou um testemunho. Lucas me fez uma Api para configurar minhas bases de dados e tem sido um sucesso, hoje está funcionando bem.",
@@ -46,13 +46,14 @@
 
   "name": "Nome completo",
   "email": "Endereço de e-mail",
-  "subjects": "Sujeitos",
+  "subjects": "Assunto",
   "message": "Mensagem",
   "touch": "Entre em contato",
   "address1": "Rua Exaporã, Número 395",
   "address2": "Taubaté-SP, Brasil",
   "footer1": "Feito com",
   "footer2": "por Lucas e",
-  "stars": "5.0 Stars Rating",
-  "follow": "Siga-me"
+  "stars": "5.0 Estrelas",
+  "follow": "Siga-me",
+  "testimonials": "Depoimentos"
 }

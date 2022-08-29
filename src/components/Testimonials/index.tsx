@@ -25,7 +25,7 @@ export function Testimonials() {
 
   return (
     <Container data-testid="testimonials">
-      <SectionTitle title="Testimonials" />
+      <SectionTitle title="testimonials" />
       <Content>
         <div>
           <TestimonialCard
